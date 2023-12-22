@@ -40,3 +40,65 @@ true => 1; false => 0 {boolean}
 // 1 => true; 0 => false
 // "" => false
 // "kaushal" => true
+
+
+/* ****************Operations***************** */
+
+let value = 9
+let negValue = -value
+console.log(negValue); // -9
+
+// Basic Operations
+console.log(9+2); // 11
+console.log(9-2); // 7
+console.log(9*2); // 18
+console.log(9**2); // 81 (9^2)
+console.log(9/2); // 4.5
+console.log(9%2); // 1
+
+
+// ******String Operations*******
+let str1 = "namste"
+let str2 = " kaushal"
+let str3 = str1 + str2
+console.log(str3); // namste kaushal
+
+console.log(1 + "2"); // 12
+console.log("1" + 2); // 12
+console.log("1" + "2"); // 12
+console.log(1 + "2" + 2); // 122
+
+console.log(1 + 2 + "2"); // 32
+// How to process :
+// 1. The first two numbers, 1 and 2, are added together, resulting in 3.
+// 2. The result of the addition (3) is then concatenated with the coerced string "2".
+// 3. This happens because the plus operator (+) can also be used for string concatenation.
+// 4. The final result is the string "32".
+
+// console.log(2 + 5 * 4 / 3 % 8) // Code Readablity is always high, so use blocks.
+// it means => ((2+5) * (8-3) / 2) 
+
+
+
+// **********boolean Operation***********
+console.log(true) // true
+console.log(+true) // 1
+// console.log(true+) // unexpected tokens/error
+console.log(+"") // 0 because empty string-value is false, and false is 0.
+
+// **********
+// Q. => Why are these boolean operations avoid ?
+// Ans. => these all boolean operations should not use, because this is not readable, but readablity is always high. (avoid these boolean operations)
+
+
+//********** prefix & postfix **********
+let gameCounter = 0
+gameCounter++ // postfix
+// ++gameCounter // prefix
+console.log(gameCounter) // 1
+
+// Q. => 
+// Ans. => 
+
+// link to learn
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
