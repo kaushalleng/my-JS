@@ -97,8 +97,15 @@ gameCounter++ // postfix
 // ++gameCounter // prefix
 console.log(gameCounter) // 1
 
-// Q. => 
-// Ans. => 
+
+// Q. => how to use postfix and prefix ?
+// Ans. => If used postfix, with operator after operand (for example, x++), the increment operator increments and returns the value 'before incrementing'.
+
+// => If used prefix, with operator before operand (for example, ++x), the increment operator increments and returns the value 'after incrementing'.
+
+// ++(++x); // SyntaxError: Invalid left-hand side expression in prefix operation
+
+
 
 // link to learn
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
